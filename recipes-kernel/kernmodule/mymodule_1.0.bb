@@ -4,9 +4,9 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=12f884d2ae1ff87c09e5b7ccc2c4ca7e"
 
 inherit module
 
-SRC_URI = "file://Makefile \
-           file://hello.c \
-           file://COPYING \
+SRC_URI = "file://github.com/horia-delicoti/kernel-module/Makefile \
+           file://github.com/horia-delicoti/kernel-module/hello.c \
+           file://github.com/horia-delicoti/kernel-module/COPYING \
           "
 
 S = "${WORKDIR}"
