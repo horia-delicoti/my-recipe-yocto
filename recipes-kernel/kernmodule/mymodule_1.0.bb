@@ -1,12 +1,10 @@
-SUMMARY = "Example of how to build an external Linux kernel module"
+SMMARY = "Example of how to build an external Linux kernel module"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=12f884d2ae1ff87c09e5b7ccc2c4ca7e"
 
 inherit module
 
-SRC_URI = "file://github.com/horia-delicoti/kernel-module/Makefile \
-           file://github.com/horia-delicoti/kernel-module/hello.c \
-           file://github.com/horia-delicoti/kernel-module/COPYING \
+SRC_URI = "git://github.com/horia-delicoti/kernel-module.git \
           "
 
 S = "${WORKDIR}"
