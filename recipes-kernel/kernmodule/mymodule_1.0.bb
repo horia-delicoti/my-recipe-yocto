@@ -4,9 +4,9 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=12f884d2ae1ff87c09e5b7ccc2c4ca7e"
 
 inherit module
 
-SRC_URI = "git://github.com/horia-delicoti/kernel-module.git;protocol=ssh;branch=release_helloworld"
+SRC_URI = "git://github.com/horia-delicoti/kernel-module.git;protocol=ssh;branch=development_chardev"
 
-SRCREV = "0305ac4cf958ecf6c6f97c736a235ad6656841aa"
+SRCREV = "af8524509e77fc773b29568160ed73acdb3fe8a5"
 
 S = "${WORKDIR}/git/"
 
