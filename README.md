@@ -1,4 +1,4 @@
-##` Description
+## Description
 
 Yocto recipe wich compiles a "hello world" kernel module.
 
