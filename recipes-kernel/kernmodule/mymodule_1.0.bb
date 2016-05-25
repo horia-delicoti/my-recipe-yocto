@@ -6,7 +6,7 @@ inherit module
 
 SRC_URI = "git://github.com/horia-delicoti/kernel-module.git;protocol=ssh;branch=release_helloworld"
 
-SRCREV = "2ece48defc879ae9cabb83dcc0b8edf85437bcb7"
+SRCREV = "0305ac4cf958ecf6c6f97c736a235ad6656841aa"
 
 S = "${WORKDIR}/git/"
 
